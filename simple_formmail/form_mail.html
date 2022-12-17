@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>상담문의 폼메일</title>
+  <link rel="stylesheet" type="text/css" href="../../aaa/email/style.css" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+
+</head>
+<body>
+  <h2>Formmail test - 성미애</h2>
+
+  <p>상담 문의하세요!!</p>
+  <form method="post" action="form_mail.php">
+  <fieldset>
+  <legend> 상담문의</legend>
+    
+      <label for="company_name">회사명</label>
+      <input style="border:#000 solid thin" type="text" id="name1" name="company_name" /><br />
+      <!--style="border:#000 solid thin": 선색으로 가는 검은색을 적용-->
+
+      <label for="name">이름</label>
+      <input style="border:#000000 solid thin"  type="text" id="name2" name="name" /><br />
+      
+      <label for="company_phone">회사전화</label>
+      <input style="border:#000000 solid thin"  type="text" id="phone1" name="company_phone" /><br />
+      
+      <label for="phone">연락처</label>
+      <input style="border:#000 solid thin"  type="text" id="phone2" name="phone" /><br />
+     
+      <label for="content">문의내용</label>
+
+      <br />
+      <textarea name="content" cols="50" rows="20"  id="content" style="border:#000 solid thin" ></textarea>
+      <br>
+      
+      <input type="submit" value="폼메일보내기" name="submit" />
+    
+    </fieldset>
+  </form>
+</body>
+</html>

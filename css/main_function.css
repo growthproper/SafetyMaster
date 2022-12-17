@@ -1,0 +1,840 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+  a.top {
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+    display: none;
+    text-decoration: none;
+    color: #007bc1;
+    font-size: 38px;
+  }
+
+    #main {
+      margin-bottom: 10%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main>div.under_button {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin: 0 auto;
+      
+  }
+
+  #main>div.under_button>p {
+    flex: 0 1 40%;
+    text-align: center;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 1vw;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+  }
+  #main>div.under_button>p>a {
+    text-decoration: none;
+    color: #007bc1;
+    display: block;
+    width: 100%;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+  }
+  #main>div.under_button>p>a:hover {
+    background-color: #007bc1;
+    color: #fff;
+  }
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+    
+
+   /*메인 배너 사진*/
+   #main>div.box {
+    position: relative;  
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 30.8133472367049%;
+   }
+   #main>div.box>div.bannerImg {       
+    width: 100%;
+    height: 100%;
+   }
+   #main>div.box>div.bannerImg>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+   }
+/*주요기능 컨테이너*/
+   /*01*/
+   .func_con {
+     
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 60%;
+   }
+   /*제목*/
+   .func_con h3 {
+    position: relative;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 1.4vw;
+    letter-spacing: -2px;
+    margin-bottom: 95px;
+    line-height: 2.5vw;
+    width: 70%;
+    margin: 0 auto;
+   }
+   .func_con h3>span {
+    position: absolute;
+    top: -0.5vw;
+    left: -3.5vw;
+    color: #007bc1;
+    font-size: 3vw;
+    z-index: -1;
+    letter-spacing: -2px;
+   }
+
+   /* .func_con>.left>h3>span {
+    left: 0;
+}
+.func_con>.right>h3 {
+   
+    text-align: right;
+}
+   .func_con>.right>h3>span {
+       right: 0;
+   } */
+
+   .func_con ul {
+       display: flex;
+       margin-bottom: 190px;
+       justify-content: space-between;
+      
+       width: 70%;
+       margin: 0 auto;
+       /* text-align: center; */
+      flex-direction: column;
+   }
+   .func_con ul>li {
+       flex: 0 1 30%;
+       height: 25vh;
+       
+       /* margin-bottom: 20vh; */
+       margin-top: 5vh;
+   }
+   .func_con ul>li>h4 {
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    color: #007bc1;
+    line-height: 3vh;
+    letter-spacing: -1px;
+   }
+   .func_con ul>li>h4>i {
+     margin-right: 1vw;
+   }
+   .func_con ul>li>p {
+    color: #9c9c9c;
+    font-size: 0.8vw;
+    /* width: 70%; */
+    margin: 0 auto;
+    line-height: 1.5vw;
+    letter-spacing: -1px;
+    font-weight: 300;
+    margin-top: 3vh;
+   }
+   .func_con ul>li:last-child {
+     margin-bottom: 20vh;
+   }
+   .func_con ul>li>img {
+     width: 20%;
+   }
+   #con_func01 ul>li>img {
+     width: 30%;
+   }
+   
+/* 안전명장 주요 기능 부분 */
+.tab_func_content div.main_func {
+  margin-bottom: 20vh;
+  /* background: url('../img/function_bg.jpg') no-repeat 0 0 / 100% 100% fixed; */
+}
+.tab_func_content div>ul {
+  /* position: relative; */
+  display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* margin-top: 10vh; */
+    flex-direction: row;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    height: 50vh;
+ }
+ 
+
+ .tab_func_content div>ul>li {
+  
+  flex: 0 1 28%;
+    border: 1px solid #777;
+    /* margin-top: 2vh; */
+    /* margin-bottom: 5%; */
+    height: 35vh;
+    padding: 1vw;
+    border-radius: 5px;
+    background: #fff;
+ }
+ .tab_func_content div>ul>li>h4 {
+  position: relative;
+  font-size: 1vw;
+  margin-top: 10vh;
+  text-align: center;
+  color: #007bc1;
+  border: 2px solid #007bc1;
+  height: 5vh;
+  line-height: 5vh;
+  border-radius: 5px;
+  font-weight: 700;
+ }
+
+ .tab_func_content div>ul>li>h4:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 9vh;
+  border: 1px dashed #777;
+ }
+
+ .tab_func_content div>ul>li>h4>span {
+  position: absolute;
+    left: 5.8vw;
+    top: -4.5vw;
+    /* width: 4vw; */
+    /* height: 8vh; */
+    /* background: #007bc1; */
+    display: block;
+    /* text-align: right; */
+    font-size: 4.5vw;
+    /* text-shadow: 3px 3px 2px #fff; */
+    color: #007bc1;
+    font-weight: bold;
+   
+ }
+ .tab_func_content div>ul>li>h4>a {
+   text-decoration: none;
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   color: #007bc1;
+   transition: background-color .5s, color .5s;
+ }
+ .tab_func_content div>ul>li>h4>a:hover {
+   background-color: #007bc1;
+   color: #fff;
+   
+ }
+ .tab_func_content div>ul>li>p {
+   font-weight: 300;
+   margin-top: 8vh;
+    line-height: 2.5vh;
+    font-size: 0.8vw;
+ }
+
+
+   
+  
+  /* .tab_func_content {
+   width: 100%;    
+  } */
+  
+  
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+  a.top {
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+    display: none;
+    text-decoration: none;
+    color: #007bc1;
+    font-size: 38px;
+  }
+
+    #main {
+      margin-bottom: 10%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main>div.under_button {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin: 0 auto;
+      
+  }
+
+  #main>div.under_button>p {
+    flex: 0 1 40%;
+    text-align: center;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 1.6vw;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+  }
+  #main>div.under_button>p>a {
+    text-decoration: none;
+    color: #007bc1;
+    display: block;
+    width: 100%;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+  }
+  #main>div.under_button>p>a:hover {
+    background-color: #007bc1;
+    color: #fff;
+  }
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+    
+
+   /*메인 배너 사진*/
+   #main>div.box {
+    position: relative;  
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 30.8133472367049%;
+   }
+   #main>div.box>div.bannerImg {       
+    width: 100%;
+    height: 100%;
+   }
+   #main>div.box>div.bannerImg>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+   }
+/*주요기능 컨테이너*/
+   /*01*/
+   .func_con {
+     
+        margin: 0 auto;
+        margin-top: 10%;
+        width: 60%;
+   }
+   /*제목*/
+   .func_con h3 {
+    position: relative;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    letter-spacing: -1px;
+    margin-bottom: 95px;
+    line-height: 2.5vw;
+    width: 70%;
+    margin: 0 auto;
+   }
+   .func_con h3>span {
+    position: absolute;
+    top: -0.5vw;
+    left: -3.3vw;
+    color: #007bc1;
+    font-size: 3vw;
+    z-index: -1;
+    letter-spacing: -2px;
+   }
+
+   /* .func_con>.left>h3>span {
+    left: 0;
+}
+.func_con>.right>h3 {
+   
+    text-align: right;
+}
+   .func_con>.right>h3>span {
+       right: 0;
+   } */
+
+   .func_con ul {
+       display: flex;
+       margin-bottom: 190px;
+       justify-content: space-between;
+      
+       width: 70%;
+       margin: 0 auto;
+       /* text-align: center; */
+      flex-direction: column;
+   }
+   .func_con ul>li {
+       flex: 0 1 30%;
+       height: 25vh;
+       
+       /* margin-bottom: 20vh; */
+       margin-top: 5vh;
+   }
+   .func_con ul>li>h4 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    color: #007bc1;
+    line-height: 3vh;
+    letter-spacing: -1px;
+   }
+   .func_con ul>li>h4>i {
+     margin-right: 1vw;
+   }
+   .func_con ul>li>p {
+    color: #9c9c9c;
+    font-size: 1.2vw;
+    /* width: 70%; */
+    margin: 0 auto;
+    line-height: 1.5vw;
+    
+    font-weight: 300;
+    margin-top: 3vh;
+   }
+   .func_con ul>li:last-child {
+     margin-bottom: 20vh;
+   }
+   .func_con ul>li>img {
+     width: 20%;
+   }
+   #con_func01 ul>li>img {
+     width: 30%;
+   }
+   
+/* 안전명장 주요 기능 부분 */
+.tab_func_content div.main_func {
+  margin-bottom: 20vh;
+  /* background: url('../img/function_bg.jpg') no-repeat 0 0 / 100% 100% fixed; */
+}
+.tab_func_content div>ul {
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  /* margin-top: 55vh; */
+  flex-direction: column;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  
+ }
+ 
+
+ .tab_func_content div>ul>li {
+  
+  flex: 0 1 28%;
+    border: 1px solid #777;
+    /* margin-top: 2vh; */
+    /* margin-bottom: 5%; */
+    height: 35vh;
+    padding: 2vw;
+    border-radius: 5px;
+    background: #fff;
+ }
+ .tab_func_content div>ul>li>h4 {
+  position: relative;
+  font-size: 1.8vw;
+  margin-top: 10vh;
+  text-align: center;
+  color: #007bc1;
+  border: 2px solid #007bc1;
+  height: 5vh;
+  line-height: 5vh;
+  border-radius: 5px;
+  font-weight: 700;
+ }
+
+ .tab_func_content div>ul>li>h4:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 9vh;
+  border: 1px dashed #777;
+ }
+
+ .tab_func_content div>ul>li>h4>span {
+  position: absolute;
+    left: 18.8vw;
+    top: -7.5vw;
+    /* width: 4vw; */
+    /* height: 8vh; */
+    /* background: #007bc1; */
+    display: block;
+    /* text-align: right; */
+    font-size: 6.5vw;
+    /* text-shadow: 3px 3px 2px #fff; */
+    color: #007bc1;
+    font-weight: bold;
+   
+ }
+ .tab_func_content div>ul>li>h4>a {
+   text-decoration: none;
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   color: #007bc1;
+   transition: background-color .5s, color .5s;
+ }
+ .tab_func_content div>ul>li>h4>a:hover {
+   background-color: #007bc1;
+   color: #fff;
+   
+ }
+ .tab_func_content div>ul>li>p {
+  font-weight: 300;
+    margin-top: 8vh;
+    line-height: 2.5vh;
+    font-size: 1.3vw;
+ }
+
+   
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) {
+  a.top {
+    position: fixed;
+    right: 5%;
+    bottom: 50px;
+    display: none;
+    text-decoration: none;
+    color: #007bc1;
+    font-size: 38px;
+  }
+
+    #main {
+      margin-bottom: 10%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main>div.under_button {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      margin: 0 auto;
+      
+  }
+
+  #main>div.under_button>p {
+    flex: 0 1 40%;
+    text-align: center;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 2.6vw;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+  }
+  #main>div.under_button>p>a {
+    text-decoration: none;
+    color: #007bc1;
+    display: block;
+    width: 100%;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+  }
+  #main>div.under_button>p>a:hover {
+    background-color: #007bc1;
+    color: #fff;
+  }
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+    
+
+   /*메인 배너 사진*/
+   #main>div.box {
+    position: relative;  
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 30.8133472367049%;
+   }
+   #main>div.box>div.bannerImg {       
+    width: 100%;
+    height: 100%;
+   }
+   #main>div.box>div.bannerImg>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 100%; */
+   }
+/*주요기능 컨테이너*/
+   /*01*/
+   .func_con {
+     
+        margin: 0 auto;
+        margin-top: 10%;
+        width: 60%;
+   }
+   /*제목*/
+   .func_con h3 {
+    position: relative;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: -1px;
+    margin-bottom: 95px;
+    line-height: 6.5vw;
+    width: 100%;
+    margin: 0 auto;
+   }
+   .func_con h3>span {
+    position: absolute;
+    top: -2.5vw;
+    left: -10.3vw;
+    color: #007bc1;
+    font-size: 10vw;
+    z-index: -1;
+    letter-spacing: -2px;
+   }
+
+   /* .func_con>.left>h3>span {
+    left: 0;
+}
+.func_con>.right>h3 {
+   
+    text-align: right;
+}
+   .func_con>.right>h3>span {
+       right: 0;
+   } */
+
+   .func_con ul {
+       display: flex;
+       margin-bottom: 190px;
+       justify-content: space-between;
+      
+       width: 100%;
+       margin: 0 auto;
+       /* text-align: center; */
+      flex-direction: column;
+   }
+   .func_con ul>li {
+       flex: 0 1 30%;
+       height: 25vh;
+       
+       /* margin-bottom: 20vh; */
+       margin-top: 5vh;
+   }
+   .func_con ul>li>h4 {
+    font-size: 3.8vw;
+    font-weight: 500;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    color: #007bc1;
+    line-height: 3vh;
+    letter-spacing: -1px;
+   }
+   .func_con ul>li>h4>i {
+     margin-right: 2vw;
+   }
+   .func_con ul>li>p {
+    color: #9c9c9c;
+    font-size: 12px;
+    /* width: 70%; */
+    margin: 0 auto;
+    line-height: 17px;
+    font-weight: 300;
+    margin-top: 3vh;
+   }
+   .func_con ul>li:last-child {
+     margin-bottom: 20vh;
+   }
+   .func_con ul>li>img {
+     width: 20%;
+   }
+   #con_func01 ul>li>img {
+     width: 30%;
+   }
+   
+/* 안전명장 주요 기능 부분 */
+.tab_func_content div.main_func {
+  margin-bottom: 20vh;
+  /* background: url('../img/function_bg.jpg') no-repeat 0 0 / 100% 100% fixed; */
+}
+.tab_func_content div>ul {
+ 
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* margin-top: 55vh; */
+  flex-direction: column;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+  
+ }
+ 
+
+ .tab_func_content div>ul>li {
+  
+  flex: 0 1 28%;
+    border: 1px solid #777;
+    /* margin-top: 2vh; */
+    /* margin-bottom: 5%; */
+    height: 35vh;
+    padding: 2vw;
+    border-radius: 5px;
+    background: #fff;
+ }
+ .tab_func_content div>ul>li>h4 {
+  position: relative;
+  font-size: 3.8vw;
+  margin-top: 10vh;
+  text-align: center;
+  color: #007bc1;
+  border: 2px solid #007bc1;
+  height: 5vh;
+  line-height: 5vh;
+  border-radius: 5px;
+  font-weight: 700;
+ }
+
+ .tab_func_content div>ul>li>h4:after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 9vh;
+  border: 1px dashed #777;
+ }
+
+ .tab_func_content div>ul>li>h4>span {
+  position: absolute;
+    left: 20.8vw;
+    top: -12.5vw;
+   
+    display: block;
+    
+    font-size: 10.5vw;
+    
+    color: #007bc1;
+    font-weight: bold;
+   
+ }
+ .tab_func_content div>ul>li>h4>a {
+   text-decoration: none;
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   color: #007bc1;
+   transition: background-color .5s, color .5s;
+ }
+ .tab_func_content div>ul>li>h4>a:hover {
+   background-color: #007bc1;
+   color: #fff;
+   
+ }
+ .tab_func_content div>ul>li>p {
+  font-weight: 300;
+    margin-top: 8vh;
+    line-height: 16px;
+    font-size: 11px;
+ }
+
+ }
+

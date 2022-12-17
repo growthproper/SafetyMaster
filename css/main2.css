@@ -1,0 +1,318 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+#main{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+
+
+/*안전명장 핵심 기능 소개*/
+.ytube_con {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.ytube_con>h2 {
+	font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: 80%;
+    color: #007bc1;
+}
+.infor_ytube {
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.infor_ytube>p {
+	position: relative;
+	flex: 0 1 32%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.infor_ytube>p>a {
+	text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+}
+.infor_ytube>p>img {
+	width: 100%;
+	box-shadow: 2px 1px 5px #777;
+}
+
+.infor_ytube_mob{
+	display: none;
+}
+
+
+#mainInner {
+	position: realative;
+    margin: 0 auto;
+    margin-top: 85px;
+    width: 100%;
+}
+#main:after {
+	content: "";
+    position: absolute;
+    left: 0;
+    bottom: 65px;
+    width: 100%;
+    height: 1px;
+    background: #777;
+    z-index: -1;
+	
+}
+#mainInner>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    
+}
+#mainInner>ul>li{
+    flex: 0 1 25%;
+    margin-top: 5vh;
+    padding: 2vh;    
+    line-height: 1.2vw;
+    font-size: 0.8vw;
+    font-weight: 500;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    text-align: center;
+    letter-spacing: -3px;
+    color: #777;
+    border: 1px solid #777;
+    border-radius: 5px;
+  
+
+}
+#mainInner>ul>li>img {
+    width: 30%;
+}
+#mainInner>ul>li>p:last-child{
+    
+    color: #007bc1;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 1.2vw;
+    font-weight: 800;
+}
+
+
+
+
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    #main{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 200px;
+    }
+    #container {
+      position: relative;  
+      width: 100%;
+      height: 100%;
+      padding-top: 34.89583333333333%;
+     
+    }
+    #mainbanner {
+      
+        width: 100%;
+      
+        
+    }
+    #mainbanner>img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    #mainInner {
+        margin: 0 auto;
+        margin-top: 85px;
+        width: 100%;
+        
+    }
+   
+   
+/*안전명장 핵심 기능 소개*/
+.ytube_con {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.ytube_con>h2 {
+	font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: 80%;
+    color: #007bc1;
+}
+.infor_ytube {
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.infor_ytube>p {
+	position: relative;
+	flex: 0 1 32%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.infor_ytube>p>a {
+	text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.infor_ytube>p>img {
+	width: 100%;
+	box-shadow: 2px 1px 5px #777;
+}
+
+.infor_ytube_mob{
+	display: none;
+}
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) { 
+    #main{
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 200px;
+    }
+ 
+   
+    #mainInner {
+        margin: 0 auto;
+        margin-top: 85px;
+        width: 100%;
+    }
+    
+   
+    
+   
+    
+    /*안전명장 핵심 기능 소개*/
+.ytube_con {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.ytube_con>h2 {
+	font-size: 22px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    width: 80%;
+    color: #007bc1;
+}
+.infor_ytube {
+	margin: 0 auto;
+    width: 80%;
+    display: none;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+    
+}
+.infor_ytube>p {
+	position: relative;
+	flex: 0 1 32%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.infor_ytube>p>a {
+	text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.infor_ytube>p>img {
+	width: 100%;
+	box-shadow: 2px 1px 5px #777;
+}
+
+
+
+/**/
+
+.infor_ytube_mob {
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.infor_ytube_mob>p {
+	position: relative;
+	flex: 0 1 32%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.infor_ytube_mob>p>a {
+	text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.infor_ytube_mob>p>.button {
+	text-decoration: none;
+    display: block;
+    /* margin-top: 13px; */
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.infor_ytube_mob>p>img {
+	width: 100%;
+	box-shadow: 2px 1px 5px #777;
+}
+
+
+}

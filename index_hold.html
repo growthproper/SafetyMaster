@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href='http://www.openhiun.com/hangul/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="jq/jquery.min.js" type="text/javascript"></script>
+    <title>Safety Master</title>
+</head>
+<body>
+    <header>
+        <h1><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><img src="img/logo.jpg" alt="로고"></a></h1>
+        <nav class="button">
+            <ul class="hidden">
+                <li><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><i class="fas fa-globe"></i>안전명장 주요기능</a></li>
+                <li><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><i class="fas fa-desktop"></i>데모 체험</a></li>
+                <li><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><i class="fas fa-sign-in-alt"></i>가입하기</a></li>
+                <li><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><i class="fas fa-chalkboard-teacher"></i>교육지원</a></li>
+                <li><a href="#" onclick="alert('사이트 준비 중입니다!!!');"><i class="far fa-building"></i>회사소개</a></li>
+            </ul>
+        </nav><!--nav-->
+        <button><i class="fas fa-headset"></i><a href="#" onclick="alert('사이트 준비 중입니다!!!');">상담 요청</a></button>
+        <p class="open"><img src="img/open.png" alt=""></p>
+        <p class="close"><img src="img/close.png" alt=""></p>
+        <script type="text/javascript">         
+               
+                $('.open').click(function(){
+                    $(this).css('display', 'none');
+                    $('.close').css('display', 'block');
+                    $('.button').css('left', '0px');
+                });
+          
+              
+                $('.close').click(function(){
+                    $('.open').css('display', 'block');
+                    $(this).css('display', 'none');
+                    $('.button').css('left', '-9999px');
+            });
+           
+            
+            
+        </script>
+    </header><!--header-->
+    <div id="main">
+        <h1 style="line-height: 500px;font-size: 100px;text-align: center;">!!!사이트 준비중입니다!!!</h1>
+    </div><!--main-->
+    <footer>
+        <dl>
+            <dt></dt>
+            <dd><a href="">회사소개</a></dd>
+            <dd><a href="">개인정보처리방침</a></dd>
+            <dd><a href="">이용약관</a></dd>
+            <!-- <dd><a href="">이메일무단수집거부</a></dd> -->
+        </dl>
+
+        <address>
+            <p>(주)세이프티마스터</p>
+            <p>대표자 : 성미애</p>
+            <p>사업자등록번호 : 519-81-01588</p>            
+        </address>
+        <p>&copy;Safetymaster Inc. All rights reserved.</p>
+    </footer><!--footer-->
+</body>
+</html>

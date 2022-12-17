@@ -1,0 +1,1570 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+    #main {
+        /*margin-bottom: 100px;*/
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* CEO인사말 */
+   #main>h3 {
+       margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 36px;
+        text-align: center;
+   }
+   #main>hr {
+       border: 1px solid #007bc1;
+   }
+   .ceo_con {
+       position: relative;
+       margin: 0 auto;
+       width: 60%;
+       padding-top: 39.79166666666667%;
+
+   }
+   .text_con {       
+       width: 100%;
+       height: 100%;
+   }
+   .con_inner{
+       margin-top: 70px;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+       display: flex;
+       justify-content: space-between;
+   }
+   .con_inner>.con_text {   
+       flex: 1;
+       font-size: 0.9vw;
+       font-weight: 300;
+      
+   }
+   .con_inner>.con_text>p:first-child {
+       margin-top: 0.8vw;
+   }
+   .con_inner>.con_text>p {
+    line-height: 1.6vw;
+    margin-top: 1vw;
+   }
+   .con_inner>.con_text>p:last-child {
+    margin-top: 4vh;
+       font-size: 1.1vw;
+       text-align: left;
+       vertical-align: middle;
+   }
+   .con_inner>.con_text>p:last-child>span {
+       font-size: 1.3vw;
+       margin-left: 24px;
+       font-weight: 500;
+       margin-right: 30px;
+   }
+   .con_inner>.con_text>p:last-child>img {
+   	width: 15%;
+   	vertical-align: middle;
+   }
+   .con_inner>img {
+    flex: 0 1 45%;
+    width: 70%;
+    height: 70%;
+   }
+/* 회사정보 */
+.com_info>hr {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.com_info {
+    position: relative;
+    width: 100%;
+    padding-top: 30.8133472367049%;
+}
+.com_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.com_info_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.com_info_inner>.absol_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30%;
+}
+.com_info_inner>.absol_con>.absol {    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+.com_info_inner>.absol_con>.absol>p {
+    flex: 1;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+    color: #fff;
+}
+.com_info_inner>.absol_con>.absol>.info_small {
+    flex: 0 1 40%;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 6px 6px 15px #333;
+}
+.com_info_inner>.absol_con>.absol>.info_small>table {
+    width: 100%;
+
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr {
+    height: 2vw;
+    line-height: 3.5vw;
+    font-size: 0.9vw;
+    border-bottom: 2px solid #000;
+   
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr:last-child {
+    border: none;
+}
+
+.com_info_inner>.absol_con>.absol>.info_small>table tr>td {
+    padding-left: 1vw;
+}
+/* 조직 구성도 */
+.organization {
+    position: relative;
+    width: 100%;
+    /* padding-top: 7.59375%; */
+}
+/* .organization>.orga_inner {
+    width: 100%;
+    height: 100%;
+} */
+.orga_inner {
+    width: 70%;
+    height: 170px;
+   background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%;
+   /*background: url(../img/orga.jpg) no-repeat 0 0 / 100% 100%;*/
+    margin: 0 auto;
+}
+/* .orga_inner>img {
+    position: absolute;
+    left: 268px;
+    top: -23px;
+    width: 70%;
+    z-index: -1;
+} */
+.organization>.orga_box>ul  {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.organization>.orga_box>ul>li {
+  
+    flex: 0 1 20%;
+    /*border: 1px solid #007bc1;*/
+   /* border-radius: 5px;*/
+}
+
+.organization>.orga_box>ul>li>hr {
+    
+    border: 1px solid #007bc1;
+   
+}
+
+.organization>.orga_box>ul>li>i {
+    margin-top: 1vw;
+    font-size: 3vw;
+    color: #007bc1;
+}
+.organization>.orga_box>ul>li>h4 {
+    font-size: 1.3vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    color: #fff;
+    background: #007bc1;
+    height: 2.5vw;
+    line-height: 2.5vw;
+    border-radius: 5px;
+}
+}
+.organization>.orga_box>ul>li>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.organization>.orga_box>ul>li>ul>li {
+    flex: 1;
+    font-size: 0.9vw;
+    color: #007bc1;
+    line-height: 1.8vw;
+    text-align: left;
+    margin-left: 1.5vw;
+}
+/* 전문 구성원 */
+.organization01 {
+    position: relative;
+    width: 100%;
+    /* padding-top: 13.59375%; */
+}
+.organization01>.orga_inner_img {
+    /* width: 100%;
+    height: 100%; */
+
+    width: 70%;
+    height: 170px;
+    background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%;
+    margin: 0 auto;
+}
+/* .organization01>.orga_inner01>img {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 100%;
+    z-index: -1;
+} */
+.organization01>.orga_inner01>ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.organization01>.orga_inner01>ul>li {
+    
+    flex: 0 1 25%;
+    background: #007bc1;
+    color: #fff;
+    height: 6vh;
+    font-size: 1.2vw;
+    line-height: 5.4vh;
+    padding-top: 1.7vh;
+    border-radius: 5px;
+}
+
+.organization01>.orga_inner01>ul>li>a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*연구자문위원 상세 내용*/
+.orga_inner01>div {
+    width: 60%;
+    margin: 0 auto;
+   /* margin-top: 10%;*/
+}
+.orga_inner01>div>h3 {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.orga_inner01 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.orga_inner01 ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.orga_inner01 ul>li>h4 {
+    position: relative;
+    font-size: 1.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.orga_inner01 ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 80%;
+    border: 1px dashed #007bc1;
+}
+.orga_inner01 ul>li>p {
+    font-size: 0.8vw;
+    font-weight: 300;
+    color: #595959;
+    line-height: 36px;
+    letter-spacing: -2px;
+}
+.orga_inner01 ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 0.8vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.orga_inner01 ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 2.2vw solid transparent;
+}
+
+/* 소프트웨어 개발 */
+.sw_pp>ul {
+    justify-content: space-between;
+}
+.sw_pp>ul>li {
+    flex: 0 1 47.5%;
+}
+.sw_pp>ul>li>h4:after {
+    width: 90%;
+}
+/* 기술/법률 */
+.tech_pp>ul {
+    justify-content: space-between;
+}
+.tech_pp>ul>li {
+    flex: 0 1 30%;
+}
+.tech_pp>ul>li>h4:after {
+    width: 85%;
+}
+.help {
+	padding-top: 20vh;
+}
+
+/* 특허 및 출원 */
+.pantent_info>hr {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.pantent_info {
+    position: relative;
+    width: 100%;
+    padding-top: 44.84375%;
+    margin-top: 5%;
+}
+.pantent_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.pantent_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.pantent_inner>.pantent_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+}
+}
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* CEO인사말 */
+   #main>h3 {
+       margin-top: 16vh;
+        margin-bottom: 50px;
+        font-size: 36px;
+        text-align: center;
+   }
+   #main>h3.com_h3 {
+       margin-top: 50vh;
+   }
+   #main>hr {
+       border: 1px solid #007bc1;
+   }
+   .ceo_con {
+       position: relative;
+       margin: 0 auto;
+       width: 60%;
+       padding-top: 39.79166666666667%;
+
+   }
+   .text_con {       
+       width: 100%;
+       height: 100%;
+   }
+   .con_inner{
+       margin-top: 70px;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+   }
+   .con_inner>.con_text {   
+       flex: 0 1 45%;
+       font-size: 1.2vw;
+       font-weight: 300;
+      margin-bottom: 6vh;
+   }
+   .con_inner>.con_text>p:first-child {
+       margin-top: 0.8vw;
+   }
+   .con_inner>.con_text>p {
+    line-height: 1.6vw;
+    margin-top: 1vw;
+   }
+   .con_inner>.con_text>p:last-child {
+    margin-top: 4vh;
+       font-size: 1.1vw;
+       text-align: right;
+       
+   }
+   .con_inner>.con_text>p:last-child>span {
+       font-size: 2.3vw;
+       margin-left: 24px;
+       font-weight: 500;
+       
+   }
+   .con_inner>img {
+    flex: 0 1 45%;
+    width: 100%;
+    height: 100%;
+   }
+/* 회사정보 */
+.com_info>hr {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.com_info {
+    position: relative;
+    width: 100%;
+    padding-top: 30.8133472367049%;
+}
+.com_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.com_info_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.com_info_inner>.absol_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+}
+.com_info_inner>.absol_con>.absol {    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+.com_info_inner>.absol_con>.absol>p {
+    flex: 1;
+    font-size: 2vw;
+    line-height: 2.5vw;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+.com_info_inner>.absol_con>.absol>.info_small {
+    flex: 0 1 50%;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 2px 2px 4px #333;
+}
+.com_info_inner>.absol_con>.absol>.info_small>table {
+    width: 100%;
+
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr {
+    height: 2vw;
+    line-height: 3.5vw;
+    font-size: 0.9vw;
+    border-bottom: 1px solid #000;
+   
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr:last-child {
+    border: none;
+}
+
+.com_info_inner>.absol_con>.absol>.info_small>table tr>td {
+    padding-left: 1vw;
+}
+/* 조직 구성도 */
+.organization {
+    position: relative;
+    width: 100%;
+    /* padding-top: 7.59375%; */
+}
+/* .organization>.orga_inner {
+    width: 100%;
+    height: 100%;
+} */
+.orga_inner {
+    width: 70%;
+    height: 170px;
+    background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%;
+    margin: 0 auto;
+}
+/* .orga_inner>img {
+    position: absolute;
+    left: 268px;
+    top: -23px;
+    width: 70%;
+    z-index: -1;
+} */
+.organization>.orga_box>ul  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.organization>.orga_box>ul>li {
+  
+    flex: 0 1 32%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+}
+
+.organization>.orga_box>ul>li>hr {
+    
+    border: 1px solid #007bc1;
+   
+}
+
+.organization>.orga_box>ul>li>i {
+    margin-top: 1vw;
+    font-size: 3vw;
+    color: #007bc1;
+}
+.organization>.orga_box>ul>li>h4 {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    color: #007bc1;
+}
+.organization>.orga_box>ul>li>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.organization>.orga_box>ul>li>ul>li {
+    flex: 1;
+    font-size: 0.9vw;
+    color: #007bc1;
+    line-height: 1.8vw;
+    
+}
+/* 전문 구성원 */
+.organization01 {
+    position: relative;
+    width: 100%;
+    /* padding-top: 13.59375%; */
+}
+.organization01>.orga_inner_img {
+    /* width: 100%;
+    height: 100%; */
+
+    width: 70%;
+    height: 170px;
+    background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%;
+    margin: 0 auto;
+}
+/* .organization01>.orga_inner01>img {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 100%;
+    z-index: -1;
+} */
+.organization01>.orga_inner01>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.organization01>.orga_inner01>ul>li {
+    
+    flex: 0 1 28%;
+    background: #007bc1;
+    color: #fff;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 1.7vh;
+    border-radius: 5px;
+}
+
+.organization01>.orga_inner01>ul>li>a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*연구자문위원 상세 내용*/
+.orga_inner01>div {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.orga_inner01>div>h3 {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.orga_inner01 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.orga_inner01 ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+}
+.orga_inner01 ul>li>h4 {
+    position: relative;
+    font-size: 1.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.orga_inner01 ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 80%;
+    border: 1px dashed #007bc1;
+}
+.orga_inner01 ul>li>p {
+    font-size: 0.8vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.orga_inner01 ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 0.8vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.orga_inner01 ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 2.2vw solid transparent;
+}
+/* 컨텐츠 개발 */
+.content_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.content_pp ul>li>h4 {
+    position: relative;
+    font-size: 2.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.content_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.content_pp ul>li>p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.content_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.content_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 4.2vw solid transparent;
+}
+/* 소프트웨어 개발 */
+.sw_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sw_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.sw_pp ul>li>h4 {
+    position: relative;
+    font-size: 2.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.sw_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.sw_pp ul>li>p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.sw_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.sw_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 4.2vw solid transparent;
+}
+/* 기술/법률 */
+.tech_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tech_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.tech_pp ul>li>h4 {
+    position: relative;
+    font-size: 2.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.tech_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.tech_pp ul>li>p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.tech_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.tech_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 4.2vw solid transparent;
+}
+/* 특허 및 출원 */
+.pantent_info>hr {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.pantent_info {
+    position: relative;
+    width: 100%;
+    padding-top: 44.84375%;
+    margin-top: 5%;
+}
+.pantent_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.pantent_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.pantent_inner>.pantent_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+}
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) { 
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* CEO인사말 */
+   #main>h3 {
+          margin-top: 10vh;
+        margin-bottom: 50px;
+        font-size: 36px;
+        text-align: center;
+   }
+   #main>h3.com_h3 {
+       margin-top: 70vh;
+      }
+   
+     
+   #main>hr {
+       border: 1px solid #007bc1;
+   }
+   .ceo_con {
+       position: relative;
+       margin: 0 auto;
+       width: 60%;
+       padding-top: 39.79166666666667%;
+
+   }
+   .text_con {       
+       width: 100%;
+       height: 100%;
+   }
+   .con_inner{
+       margin-top: 70px;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+   }
+   .con_inner>.con_text {   
+       flex: 0 1 45%;
+       font-size: 1.2vw;
+       font-weight: 300;
+      margin-bottom: 6vh;
+   }
+   .con_inner>.con_text>p:first-child {
+       margin-top: 0.8vw;
+   }
+   .con_inner>.con_text>p {
+    line-height: 14px;
+    margin-top: 1vw;
+   }
+   .con_inner>.con_text>p:last-child {
+    margin-top: 4vh;
+       font-size: 16px;
+       text-align: left;
+       line-height: 21px;
+   }
+   .con_inner>.con_text>p:last-child>img {
+   	width: 100%;
+   }
+   .con_inner>.con_text>p:last-child>span {
+       font-size: 16px;
+       margin-left: 24px;
+       font-weight: 500;
+       
+   }
+   .con_inner>img {
+    flex: 0 1 45%;
+    width: 100%;
+    height: 100%;
+   }
+/* 회사정보 */
+.com_info>hr {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.com_info {
+    position: relative;
+    width: 100%;
+    padding-top: 30.8133472367049%;
+}
+.com_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.com_info_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.com_info_inner>.absol_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 18%;
+}
+.com_info_inner>.absol_con>.absol {    
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+.com_info_inner>.absol_con>.absol>p {
+    flex: 1;
+    font-size: 11px;
+    line-height: 12px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.com_info_inner>.absol_con>.absol>.info_small {
+    flex: 0 1 50%;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 2px 2px 4px #333;
+}
+.com_info_inner>.absol_con>.absol>.info_small>table {
+    width: 100%;
+
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr {
+    height: 2vw;
+    line-height: 3.5vw;
+    font-size: 0.9vw;
+    border-bottom: 1px solid #000;
+   
+}
+.com_info_inner>.absol_con>.absol>.info_small>table tr:last-child {
+    border: none;
+}
+
+.com_info_inner>.absol_con>.absol>.info_small>table tr>td {
+    padding-left: 1vw;
+}
+/* 조직 구성도 */
+.organ {
+	padding-top: 510px;
+}
+.organization {
+    position: relative;
+    width: 100%;
+    /* padding-top: 7.59375%; */
+}
+/* .organization>.orga_inner {
+    width: 100%;
+    height: 100%;
+} */
+.orga_inner {
+    width: 70%;
+    height: 30px;
+    /* background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%; */
+    margin: 0 auto;
+}
+/* .orga_inner>img {
+    position: absolute;
+    left: 268px;
+    top: -23px;
+    width: 70%;
+    z-index: -1;
+} */
+.organization>.orga_box>ul  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+}
+.organization>.orga_box>ul>li {
+   margin-top: 12px;
+    flex: 0 1 32%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+}
+
+.organization>.orga_box>ul>li>hr {
+    
+    border: 1px solid #007bc1;
+   
+}
+
+.organization>.orga_box>ul>li>i {
+    margin-top: 1vw;
+    font-size: 3vw;
+    color: #007bc1;
+}
+.organization>.orga_box>ul>li>h4 {
+   font-size: 18px;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+    color: #007bc1;
+}
+.organization>.orga_box>ul>li>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    /* flex-direction: column; */
+    padding-bottom: 3px;
+}
+.organization>.orga_box>ul>li>ul>li {
+    flex: 1;
+    font-size: 14px;
+    color: #007bc1;
+    line-height: 18px;
+  
+    margin-left: 35%;
+    
+}
+/* 전문 구성원 */
+
+.organization01 {
+    position: relative;
+    width: 100%;
+    /* padding-top: 13.59375%; */
+}
+.organization01>.orga_inner_img {
+	display: none;
+    /* width: 100%;
+    height: 100%; */
+
+    /*width: 70%;
+    height: 50px;*/
+    /* background: url(../img/line.jpg) no-repeat 0 0 / 100% 100%; */
+    margin: 0 auto;
+}
+/* .organization01>.orga_inner01>img {
+    position: absolute;
+    left: 0;
+    top: -30px;
+    width: 100%;
+    z-index: -1;
+} */
+.organization01>.orga_inner01>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    flex-direction: column;
+}
+.organization01>.orga_inner01>ul>li {
+    margin-top: 8px;
+    flex: 0 1 28%;
+    background: #007bc1;
+    color: #fff;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 1.7vh;
+    border-radius: 5px;
+}
+
+.organization01>.orga_inner01>ul>li>a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*연구자문위원 상세 내용*/
+.orga_inner01>div {
+   width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.orga_inner01>div>h3 {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.orga_inner01 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.orga_inner01 ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+}
+.orga_inner01 ul>li>h4 {
+    position: relative;
+    font-size: 1.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.orga_inner01 ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 80%;
+    border: 1px dashed #007bc1;
+}
+.orga_inner01 ul>li>p {
+    font-size: 0.8vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.orga_inner01 ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 0.8vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.orga_inner01 ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 2.2vw solid transparent;
+}
+/* 컨텐츠 개발 */
+.content_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.content_pp ul>li>h4 {
+    position: relative;
+    font-size: 2.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.content_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.content_pp ul>li>p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.content_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.content_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 4.2vw solid transparent;
+}
+/* 소프트웨어 개발 */
+.sw_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.sw_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.sw_pp ul>li>h4 {
+    position: relative;
+    font-size: 2.1vw;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.sw_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.sw_pp ul>li>p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.sw_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.sw_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+      border-bottom: 5.5vh solid #007bc1;
+      border-left: 4.2vw solid transparent;
+}
+/* 기술/법률 */
+.tech_pp>ul {
+    justify-content: space-between;
+    flex-direction: column;
+}
+.tech_pp ul>li {
+    flex: 0 1 22%;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    padding: 10px;
+    margin-bottom: 2vh;
+}
+.tech_pp ul>li>h4 {
+    position: relative;
+    font-size: 18px;
+    color: #007bc1;
+    height: 5vh;
+    letter-spacing: 5px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.tech_pp ul>li>h4:after {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    content: "";
+    width: 90%;
+    border: 1px dashed #007bc1;
+}
+.tech_pp ul>li>p {
+    font-size: 11px;
+    font-weight: 300;
+    color: #777;
+    line-height: 24px;
+    letter-spacing: -1px;
+}
+.tech_pp ul>li>h4>span:first-child {
+    font-weight: 300;
+    color: #777;
+    font-size: 12px;
+    margin-right: 1vw;
+    letter-spacing: 0;
+    margin-left: 0.5vw;
+}
+
+.tech_pp ul>li>h4>span:last-child {
+    float: right;
+    display: block;
+    width: 0;
+      height: 0;
+   border-bottom: 6.5vh solid #007bc1;
+    border-left: 8.2vw solid transparent;
+}
+/* 특허 및 출원 */
+.pantent_info>hr {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    border: 1px solid #fff;
+    z-index: 100;
+}
+.pantent_info {
+    position: relative;
+    width: 100%;
+    padding-top: 44.84375%;
+    margin-top: 5%;
+}
+.pantent_info_inner {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.pantent_inner>img {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.pantent_inner>.pantent_con {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+}
+}
+

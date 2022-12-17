@@ -1,0 +1,230 @@
+
+
+
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1025px) {
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #797979;
+        overflow: hidden;
+    }
+    footer>div {
+        width: 60%;
+        margin: 0 auto;
+    }
+    footer dl {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    }
+    footer dl>dd {    
+    flex: 0 1 17%;
+    /* width: 140px; */
+    font-family: 'Nanum Barun Gothic',sans-serif;
+    font-size: 13px;
+    text-align: right;
+    }
+    
+    footer dl>dd>a {
+        color: #fff;
+    }
+    
+    
+    /*Address*/
+    address {
+        margin-top: 40px;
+       
+        width: 900px;
+    }
+    address>div {
+    	display: flex;
+    	justify-content: space-between;
+    	width: 61%;
+    /*letter-spacing: -1px;*/
+    }
+    address>div>p {
+    	flex: 1;
+    	font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        line-height: 22px;
+        font-size: 15px;
+         
+    }
+   address>div>p:nth-of-type(3) {
+   	margin-left: 27px;
+   }
+    address>p {
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        line-height: 22px;
+        font-size: 15px;       
+    /*margin-left: 1.5vw;*/
+    }
+   address>p:first-child {
+   	margin-left: 0;
+   }
+   address>p.mobile {
+   	display: none;
+   }
+    footer>div>p {
+        margin-top: 12px;
+       
+        font-size: 34px;
+        color: #ffc600;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+    }
+    footer>div>p>span {
+    	color: #fff;
+    	margin-right: 30px;
+    }
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1024px) {
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #797979;
+        overflow: hidden;
+    }
+    footer>div {
+        width: 60%;
+        margin: 0 auto;
+    }
+    footer dl {
+        padding-top: 30px;
+    
+    display: flex;
+    width: 60%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    }
+    footer dl>dd {    
+        flex: 1;
+    /* width: 140px; */
+    font-family: 'Nanum Barun Gothic',sans-serif;
+    font-size: 13px;
+    text-align: left;
+    }
+    
+    footer dl>dd>a {
+        color: #fff;
+    }
+    
+    
+    /*Address*/
+    address {
+        margin-top: 40px;
+       
+        width: 900px;
+    }
+    address>p {
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    footer>div>p {
+        margin-top: 12px;
+       
+        font-size: 28px;
+        color: #ffc600;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) { 
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #797979;
+        overflow: hidden;
+    }
+    footer>div {
+       width: 80%;
+        margin: 0 auto;
+    }
+    footer dl {
+    padding-top: 30px;
+    display: flex;
+   width: 100%;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    }
+    footer dl>dd {    
+        flex: 0 1 50%;
+    /* width: 140px; */
+    font-family: 'Nanum Barun Gothic',sans-serif;
+    font-size: 12px;
+    text-align: left;
+    }
+    
+    footer dl>dd>a {
+        color: #fff;
+    }
+    
+    
+    /*Address*/
+    address {
+       margin-top: 13px;
+       
+        width: 900px;
+    }
+    address>div {
+    	display: flex;
+    justify-content: space-between;
+    width: 50%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    }
+    address>div>p {
+    	flex: 1;
+    	font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        line-height: 22px;
+        font-size: 14px;
+         
+    }
+   
+    address>p {
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: 300;
+        color: #fff;
+        line-height: 22px;
+        font-size: 14px;       
+    /*margin-left: 1.5vw;*/
+    }
+   address>p:first-child {
+   	margin-left: 0;
+   }
+    footer>div>p {
+        margin-top: 12px;
+       
+        font-size: 23px;
+        color: #ffc600;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+    }
+    footer p.pc {
+    	display: none;
+    }
+    footer>div>p>span {
+    	color: #fff;
+    margin-right: 30px;
+    display: block;
+    }
+}
+

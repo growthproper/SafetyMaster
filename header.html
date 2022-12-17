@@ -1,0 +1,32 @@
+
+    <h1><a href="index.html"><img src="img/logo.jpg" alt="로고"></a></h1>
+    <nav class="button">
+        <ul>
+            <li><a href="main_function.html"><i class="fas fa-globe"></i>주요기능</a></li>
+            <li><a href="demo.html"><i class="fas fa-desktop"></i>데모체험</a></li>
+            <li><a href="join.html"><i class="fas fa-sign-in-alt"></i>가입하기</a></li>
+            <li><a href="education.html"><i class="fas fa-chalkboard-teacher"></i>교육지원</a></li>
+            <li><a href="company.html"><i class="far fa-building"></i>회사소개</a></li>
+        </ul>
+    </nav><!--nav-->
+    <button><i class="fas fa-headset"></i><a href="request.html" target="_blank">상담 요청</a></button>
+    <p class="open"><img src="img/open.png" alt=""></p>
+    <p class="close"><img src="img/close.png" alt=""></p>
+    <script type="text/javascript">         
+           
+            $('.open').click(function(){
+                $(this).css('display', 'none');
+                $('.close').css('display', 'block');
+                $('.button').css('left', '0px');
+            });
+      
+          
+            $('.close').click(function(){
+                $('.open').css('display', 'block');
+                $(this).css('display', 'none');
+                $('.button').css('left', '-9999px');
+        });
+       
+        
+        
+    </script>

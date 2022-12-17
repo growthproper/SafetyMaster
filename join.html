@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main_join.css">
+    <link rel="stylesheet" href="css/footer.css">
+<!--     <link href='http://www.openhiun.com/hangul/nanumbarungothic.css' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="jq/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">   
+        $(document).ready( function() {
+        
+        $("#headers").load("header.html");  // 원하는 파일 경로를 삽입하면 된다
+        $("#footers").load("footer.html");        
+        });
+        </script>
+    <title>Safety Master</title>
+</head>
+<body>
+    <header id="headers">
+        
+    </header><!--header-->
+    <div id="main">
+        <div class="center">
+            <h2>가입하기</h2>
+            <p>Sign up</p>
+            
+        </div>
+        <div class="agree">
+            <p>안전명장은 3가지 타입의 회원으로 가입이 가능합니다.<br> 아래 내용을 읽어보신 후 귀사의 상황에 적합한 회원 타입으로 가입을 부탁드립니다.</p>        
+            
+            
+           
+            <!-- <div class="button">
+                <button id="member_join">회원사 가입</button>                
+                <button id="coop_member_join">협력업체 가입</button>
+                <button id="consult_join">컨설팅사 가입</button>    
+            </div> -->
+            
+            <ul class="join_ex">
+            	<li>
+            		<i class="fas fa-building"></i>
+            		<h4>회원사 가입</h4>
+            		
+            		<p> ○ 회원사 가입은 유료가입으로서 ㈜세이프티마스터와의 정식계약을 통해 가입을 받고 있습니다. 따라서 본 페이지를 통해 회원사 가입신청을 하셨다 하여도 안전명장의 승인절차 없이는 서비스 이용이 제한됨을 양해부탁드립니다. 회원사 가입을 원하시는 경우, 안전명장 기술영업팀으로 연락을 부탁드립니다.</p> 
+            		
+            		<p> ○ 회원사 가입은 원청건설사나 직영현장과 하청현장을 동시에 운용하는 건설사들을 위한 가입입니다. 또한 복수의 현장을 관리해야 하는 발주처도 회원사 가입을 하시면 편리하게 이용하실 수 있습니다. </p>
+            	</li>
+            	<li>
+            		<i class="fas fa-user-tie"></i>
+            		<h4>협력업체 가입</h4>
+            		<p> ○ 협력 업체는 본 서비스 가입 후 회원사의 승인(매칭) 절차가 필요합니다. 회원사(원청) 담당자에게 연락하셔서 승인(매칭)요청을 해주시기 바랍니다.</p>
+            		<p> ○ 협력업체가 안전명장의 전체 서비스 이용을 원하실 경우에는 세이프티마스터 대표번호로 연락주시면 계약을 도와드리겠습니다.</p> 
+            		<p> ○ 중소/중견 건설사가 회원사와 협력업체 관계에 있을 경우 협력업체 가입을 진행하시면 됩니다. 더 궁금한 사항이 있으시면 메일 또는 전화상담 문의바랍니다.</p>
+            	</li>
+            	<li>
+            		<i class="fas fa-file-alt"></i>
+            		<h4>컨설팅사 가입</h4>
+            		<p> ○ 컨설팅사 가입은 회원사의 재해예방지도기관를 위한 가입절차로서 무료로 가입이 가능합니다. 안전명장에 컨설팅사 가입을 하신 후 회원사의 승인절차를 거쳐야 본 시스템을 이용하실 수 있습니다. (회원사의 개별현장에 대한 권한을 부여받은 후 이용가능함)</p> 
+            		<p> ○ 컨설팅사가 여러 회원사를 거래하는 경우, 안전명장에 매번 가입할 필요 없이 최초 한번 가입한 후, 이후부터는 각 회원사의 승인만 있으면 해당 회원사의 현장에 접근할 수 있는 권한이 주어집니다.</p>
+            	</li>
+            </ul>
+            <p class="button_join"><img src="img/button.png"><span><a href="#">안전명장 데모서비스는 2022년 5월 말에 출시됩니다. <br> 문의사항이 있으신 경우 02.990.1019로 연락주세요.</a></span></p>
+            <p style="display: none;" class="button_join"><a href="join_privacy.html" onclick="window.open(this.href, '_blank', 'width=1600px, height=1000px, toolbars=no, scrollbars=no');return false;">회원가입</a></p>
+        </div><!--agree-->
+        <script type="text/javascript">
+            function checkAllCheckbox() { 
+                var agreeAllCheckbox = document.getElementById("agree-all"); 
+                var e = document.querySelectorAll('input[type="checkbox"]:not(#agree-all)'); 
+                
+                for(var i = 0, len = e.length; i < len; ++i) { 
+                    if(!e[i].checked) { 
+                        agreeAllCheckbox.checked = false; 
+                        return; 
+                    } 
+                } 
+                agreeAllCheckbox.checked = true; 
+            } 
+            function toggleAllCheckbox(source) { 
+                var e = document.querySelectorAll('input[type="checkbox"]:not(#agree-all)'); 
+                for(var i = 0, len = e.length; i < len; ++i) { 
+                    e[i].checked = source.checked; 
+                }
+            }
+
+
+        </script>
+    </div><!--main-->
+    <footer id="footers">
+       
+        
+    </footer><!--footer-->
+</body>
+</html>

@@ -1,0 +1,605 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+  .pop {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(100% - 250px);
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+  }
+  .pop>p {
+    font-size: 25px;
+    color: #fff;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    line-height: 36px;
+  }
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /*탭 메뉴*/
+   .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .tab_title {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+    margin: 0 auto;
+  }
+  .tab_title li {    
+    flex: 1;    
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+   /* border-radius: 5px; */
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    height: 30px;
+    line-height: 30px;
+
+  }
+  
+  .tab_title li.on {
+    /* background-color: #007bc1; */
+    font-weight: bold;
+    color: #007bc1;
+    border-bottom: 5px solid #007bc1;
+  }
+  
+  .tab_cont {
+   width: 100%;    
+  }
+  
+  .tab_cont div {
+    display: none;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .tab_cont div.on {
+    display: block;
+  }
+
+  /*집체 교육과 방문 교육*/
+  .tab_cont h3 {
+      margin-top: 85px;
+      margin-bottom: 85px;
+      font-size: 26px;
+      color: #007bc1;
+  }
+
+  .tab_cont h4 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 23px;
+    text-align: left;
+    color: #595959;
+  }
+  
+  .tab_cont ul {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .tab_cont ul>li {
+      line-height: 30px;
+      color: #595959;
+      font-size: 0.8vw;
+      font-weight: 500;
+      letter-spacing: -1px;
+  }
+  .tab_cont ul>li>span {
+    font-size: 19px;
+    color:#007bc1;
+    font-weight: bold;
+  }
+  /*집체교육, 방문교육 하단 이미지*/
+  .tab_cont section.edu_img_con {
+    position: relative;  
+    width: 100%;    
+    padding-top: 30.8133472367049%;
+
+  }
+  .tab_cont section.edu_img_con>section.edu_img {
+    width: 100%;
+    height: 100%;
+  }
+  .tab_cont section.edu_img_con>section.edu_img>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  /*방문교육 1차 2차*/
+  section.sec_con {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  section.sec_con::after {
+    content: ">";
+    position: absolute;
+    left: 0;
+    top: 108px;
+    width: 100%;
+    font-size: 85px;
+    color: #007bc1;
+}
+  
+  section.sec_con>section {
+    flex: 0 1 45%;
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 1.7%;
+  }
+  section.sec_con>section>h5 {
+    position: relative;
+    width: 100%;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #595959;
+    margin-bottom: 70px;
+  }
+  section.sec_con>section>h5::after{
+    content: "";
+    position: absolute;
+    left:0;
+    top: 50px;
+    width: 100%;
+    border: 1px solid #007bc1;
+
+  }
+  section.sec_con>section>ul>li {
+    font-size: 16px;
+  }
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+  .pop {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: calc(100% - 250px);
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+  }
+  .pop>p {
+    font-size: 25px;
+    color: #fff;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    line-height: 36px;
+  }
+  
+  #main {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+#main h2 {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+#main h2::before {
+content: "";
+position: absolute;
+left: 21px;
+top: -14px;
+border-top: 5px solid #000;
+width: 155px;
+}
+
+#main>div.center {
+width: 220px;
+margin: 0 auto;
+text-align: center;
+}
+
+#main>div.center>p {
+   margin-top: 8px;
+   color: #9c9c9c;
+   font-size: 23px;
+   margin-bottom: 100px;
+   
+}
+
+/*탭 메뉴*/
+.container {
+width: 80%;
+margin: 0 auto;
+}
+.tab_title {
+  display: flex;
+  justify-content: space-between;
+}
+.tab_title li {    
+flex: 1;    
+padding: 10px 15px;
+cursor: pointer;
+text-align: center;
+/* border-radius: 5px; */
+font-family: 'Nanum Barun Gothic', sans-serif;
+font-size: 20px;
+border-bottom: 1px solid #000;
+height: 30px;
+line-height: 30px;
+
+}
+
+.tab_title li.on {
+/* background-color: #007bc1; */
+font-weight: bold;
+color: #007bc1;
+border-bottom: 5px solid #007bc1;
+}
+
+.tab_cont {
+width: 100%;    
+}
+
+.tab_cont div {
+display: none;
+text-align: center;
+}
+
+.tab_cont div.on {
+display: block;
+}
+
+/*집체 교육과 방문 교육*/
+.tab_cont h3 {
+  margin-top: 85px;
+  margin-bottom: 85px;
+  font-size: 26px;
+  color: #007bc1;
+}
+
+.tab_cont h4 {
+margin-top: 100px;
+margin-bottom: 40px;
+font-size: 23px;
+text-align: left;
+color: #595959;
+}
+
+.tab_cont ul {
+margin-bottom: 40px;
+text-align: left;
+}
+.tab_cont ul>li {
+  line-height: 30px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.tab_cont ul>li>span {
+font-size: 19px;
+color:#007bc1;
+font-weight: bold;
+}
+/*집체교육, 방문교육 하단 이미지*/
+.tab_cont section.edu_img_con {
+position: relative;  
+width: 100%;    
+padding-top: 30.8133472367049%;
+
+}
+.tab_cont section.edu_img_con>section.edu_img {
+width: 100%;
+height: 100%;
+}
+.tab_cont section.edu_img_con>section.edu_img>img {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+/*방문교육 1차 2차*/
+section.sec_con {
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+section.sec_con::after {
+content: ">";
+position: absolute;
+left:0;
+top: 113px;
+width: 100%;
+font-size: 65px;
+color: #007bc1;
+}
+section.sec_con>section {
+flex: 0 1 45%;
+background: #f1f1f1;
+border-radius: 5px;
+padding: 1.7%;
+}
+section.sec_con>section>h5 {
+position: relative;
+width: 100%;
+font-size: 22px;
+margin-top: 20px;
+color: #595959;
+margin-bottom: 70px;
+}
+section.sec_con>section>h5::after{
+content: "";
+position: absolute;
+left:0;
+top: 50px;
+width: 100%;
+border: 1px solid #007bc1;
+
+}
+section.sec_con>section>ul>li {
+font-size: 13px;
+}
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) { 
+  
+  .pop {
+    position: absolute;
+    left: calc(50% - 150px);
+    top: calc(110% - 150px);
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+  }
+  .pop>p {
+    font-size: 20px;
+    color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 82px;
+    line-height: 22px;
+  }
+  
+  #main {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+#main h2 {
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+#main h2::before {
+content: "";
+position: absolute;
+left: 21px;
+top: -14px;
+border-top: 5px solid #000;
+width: 155px;
+}
+
+#main>div.center {
+width: 220px;
+margin: 0 auto;
+text-align: center;
+}
+
+#main>div.center>p {
+   margin-top: 8px;
+   color: #9c9c9c;
+   font-size: 23px;
+   margin-bottom: 100px;
+   
+}
+
+/*탭 메뉴*/
+.container {
+width: 80%;
+margin: 0 auto;
+}
+.tab_title {
+  display: flex;
+  justify-content: space-between;
+}
+.tab_title li {    
+flex: 1;    
+padding: 10px 15px;
+cursor: pointer;
+text-align: center;
+/* border-radius: 5px; */
+font-family: 'Nanum Barun Gothic', sans-serif;
+font-size: 20px;
+border-bottom: 1px solid #000;
+height: 30px;
+line-height: 30px;
+
+}
+
+.tab_title li.on {
+/* background-color: #007bc1; */
+font-weight: bold;
+color: #007bc1;
+border-bottom: 5px solid #007bc1;
+}
+
+.tab_cont {
+width: 100%;    
+}
+
+.tab_cont div {
+display: none;
+text-align: center;
+}
+
+.tab_cont div.on {
+display: block;
+}
+
+/*집체 교육과 방문 교육*/
+.tab_cont h3 {
+  margin-top: 85px;
+  margin-bottom: 85px;
+  font-size: 26px;
+  color: #007bc1;
+}
+
+.tab_cont h4 {
+margin-top: 50px;
+margin-bottom: 40px;
+font-size: 20px;
+text-align: left;
+color: #595959;
+}
+
+.tab_cont ul {
+margin-bottom: 40px;
+text-align: left;
+width: 90%;
+    margin: 0 auto;
+}
+.tab_cont ul>li {
+  line-height: 23px;
+  color: #595959;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin-top: 12px;
+}
+.tab_cont ul>li>span {
+font-size: 19px;
+color:#007bc1;
+font-weight: bold;
+}
+/*집체교육, 방문교육 하단 이미지*/
+.tab_cont section.edu_img_con {
+  margin-top: 30px;
+position: relative;  
+width: 100%;    
+padding-top: 30.8133472367049%;
+
+}
+.tab_cont section.edu_img_con>section.edu_img {
+width: 100%;
+height: 100%;
+}
+.tab_cont section.edu_img_con>section.edu_img>img {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+}
+/*방문교육 1차 2차*/
+section.sec_con {
+position: relative;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin-top: 50px;
+}
+section.sec_con::after {
+content: ">";
+position: absolute;
+left:0;
+top: 247px;
+width: 100%;
+font-size: 65px;
+color: #007bc1;
+transform: rotate(90deg);
+}
+section.sec_con>section {
+flex: 0 1 45%;
+background: #f1f1f1;
+border-radius: 5px;
+padding: 1.7%;
+margin-bottom: 20px;
+padding-bottom: 26px;
+}
+section.sec_con>section>h5 {
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 30px;
+  color: #595959;
+  margin-bottom: 61px;
+}
+section.sec_con>section>h5::after{
+content: "";
+position: absolute;
+left: 18px;
+    top: 50px;
+    width: 85%;
+border: 1px solid #007bc1;
+
+}
+section.sec_con>section>ul>li {
+font-size: 11px;
+}
+}
+

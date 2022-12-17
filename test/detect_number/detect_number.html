@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 발신번호 승인</title>
+  <!-- <link rel="stylesheet" type="text/css" href="../../aaa/email/style.css" /> -->
+ 
+ <style>
+ body{
+ 	background : rgba(0, 0, 0, .5);
+ }
+ 	fieldset {
+ width: 500px;
+    height: 210px;
+    background: #f2f2f2;
+    padding-top: 4px;
+    padding-left: 25px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+ 
+ 	
+ 	
+ 	
+ 	form label {
+ 		font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+ 	}
+ 	form input {
+ 	border-radius: 3px;
+    width: 260px;
+    height: 25px;
+    margin-left: 10px;
+ 	}
+ 	form input[type="submit"] {
+ margin-top: 40px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    margin-left: 115px;
+    background: #7e7e7e;
+    color: #fff;
+ 	}
+ </style>
+
+</head>
+<body>
+  <h1></h1>  
+  <form method="GET" action="" name="fm">
+  <fieldset>
+
+   <h2>발신번호 등록</h2>
+   <hr>  
+      <label for="company_phone">등록 번호</label>
+      <input style="border:#000000 solid thin"  type="text" id="phone1" name="company_phone" /><br />
+      
+     <!--  <label for="phone">연락처</label>
+      <input style="border:#000 solid thin"  type="text" id="phone2" name="phone" /><br /> -->
+     
+      
+      <input type="submit" value="발신번호 등록" name="submit" onclick="javascript:chkk();"/>
+    
+    </fieldset>
+  </form>
+  <script type="text/javascript" charset="utf-8">
+  	   /*function chkk() {
+	       var fm = document.fm;
+	       var subStr3No = fm.company_phone.value.substring(0, 3);
+	      var subStr4Num = fm.company_phone.value.substring(0, 4);
+ 	      
+	       if(fm.company_phone.value.length < 8){
+	      	 alert("회신번호는 8자리 이상만 가능합니다.");
+	      	 fm.company_phone.focus();
+	      	 return false;
+	       }else {
+	      	 if(fm.company_phone.value.substring(0, 2) =='02') {
+	      		 if(fm.company_phone.value.length > 10) {
+	      			 alert("서울지역 회신번호는 10자리 이하만 가능합니다.");
+	      			 fm.company_phone.focus();
+	      			 return false;
+	      		 }
+	      	 }else {
+	      		 if(subStr3No != '051' && subStr3No != '053' && subStr3No != '032' && subStr3No != '062' &&
+	      		 subStr3No != '042' && subStr3No != '052' && subStr3No != '044' && subStr3No != '031' && 
+	      		 subStr3No != '033' && subStr3No != '043' && subStr3No != '041' && subStr3No != '063' && 
+	      		 subStr3No != '061' && subStr3No != '054' && subStr3No != '055' && subStr3No != '064' && 
+	      		 subStr3No != '011' && subStr3No != '016' && subStr3No != '017' && subStr3No != '018' && 
+	      		 subStr3No != '019' && subStr3No != '010') {
+	      			 alert("회신번호 형태가 올바르지 않습니다.");
+	      			 fm.company_phone.focus();
+	      			 return false;
+	      		 } else if (
+	      			 subStr4Num != '1522' && subStr4Num != '1544' && subStr4Num != '1599' && subStr4Num != '1644' && 
+	      			 subStr4Num != '1661' && subStr4Num != '1688' && subStr4Num != '1666' && subStr4Num != '1800' && 
+	      			 subStr4Num != '1833' && subStr4Num != '1855' && subStr4Num != '1877' && subStr4Num != '1899'){
+	      				 alert("회신번호 형태가 올바르지 않습니다.");
+	      				 fm.company_phone.focus();
+	      				 return false;
+	      			 } else{
+	      				 if(fm.company_phone.value.length > 11) {
+	      					 alert("회신번호를 11자리 이하로 입력해 주십시오.");
+	      					 fm.company_phone.focus();
+	      					 return false;
+	      				 }
+	      			 }  
+     		
+	      	}
+	      }
+      return true;
+  	  	
+  	  }*/
+  	function chkk() {
+	      var fm = document.fm;
+	      var subStr4Num = document.getElementById("phone1").value.substr(0, 4);
+	      var subStr3No = document.getElementById("phone1").value.substr(0, 3);	         
+ 	       
+ 	       if(subStr4Num == '1522' || subStr4Num == '1544' || subStr4Num == '1599' || subStr4Num == '1644' || 
+	      	   subStr4Num == '1661' || subStr4Num == '1688' || subStr4Num == '1666' || subStr4Num == '1800' || 
+	      	   subStr4Num == '1833' || subStr4Num == '1855' || subStr4Num == '1877' || subStr4Num == '1899') {
+ 	       	if(fm.company_phone.value.length > 8){
+ 	       	      alert("해당 번호는 전체 번호 수를 8자리까지 입력해 주십시오.");
+	      	 		fm.company_phone.focus();
+	      			return false;
+ 	        }
+ 	       }
+
+			if(subStr3No == "030" || subStr3No == "050") {
+				if(fm.company_phone.value.length != 12) {
+					alert("해당 번호는 전체 번호 수를 12자리까지 입력해 주십시오.");
+	      	 		fm.company_phone.focus();
+	      			return false;
+				}else {
+					return true;
+				}
+			}
+
+ 	       /*서울 번호*/
+	       if(fm.company_phone.value.length < 8){
+	      	 alert("회신번호는 8자리 이상만 가능합니다.");
+	      	 fm.company_phone.focus();
+	      	 return false;
+	       }else if(fm.company_phone.value.slice(0, 2) =='02') {
+	      		 if(fm.company_phone.value.length > 10) {
+	      			 alert("서울지역 회신번호는 10자리 이하만 가능합니다.");
+	      			 fm.company_phone.focus();
+	      			 return false;
+	      		 }
+	      /*서울 번호 & 대표번호*/  	
+  	      }else {
+  	      	if(subStr3No != '051' && subStr3No != '053' && subStr3No != '032' && subStr3No != '062' && 
+  	     	   subStr3No != '033' && subStr3No != '052' && subStr3No != '044' && subStr3No != '031' && 
+  	     	   subStr3No != '061' && subStr3No != '054' && subStr3No != '055' && subStr3No != '011' && 
+  	     	   subStr3No != '016' && subStr3No != '017' && subStr3No != '018' && subStr3No != '010' &&
+  	     	   subStr4Num != '1522' && subStr4Num != '1544' && subStr4Num != '1599' && subStr4Num != '1644' && 
+	      	   subStr4Num != '1661' && subStr4Num != '1688' && subStr4Num != '1666' && subStr4Num != '1800' && 
+	      	   subStr4Num != '1833' && subStr4Num != '1855' && subStr4Num != '1877' && subStr4Num != '1899') {
+	      	   	
+  	  	    		alert("해당 번호는 회신번호 차단 요청 번호입니다.");
+	      	 		fm.company_phone.focus();
+	      			return false;
+	  	   }else if(fm.company_phone.value.length > 11) {
+				 alert("회신번호를 11자리 이하로 입력해 주십시오.");
+				 fm.company_phone.focus();
+				 return false;
+		   }
+  		}
+  	  return true;	
+  	};
+  </script>
+  
+</body>
+</html>

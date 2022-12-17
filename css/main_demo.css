@@ -1,0 +1,476 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+    #main {
+       
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+
+   #main>div.content {
+       width: 100%;
+   }
+   /* content */
+   #main>div.content>div.inner>ul {    
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+    align-items: center;
+   }
+   #main>div.content>div.inner>ul>li {
+    flex: 0 1 25%;
+    
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 2%;
+   }
+   #main>div.content>div.inner>ul>li>h3 {
+       font-size: 1.1vw;
+       font-weight: bold;
+       color: #007bc1;
+   }
+   #main>div.content>div.inner>ul>li>p {
+    color: #595959;
+    font-size: 0.8vw;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 2.2vh;
+   }
+
+   /* input */
+   div.content>div.input {
+       margin: 0 auto;
+       margin-top: 90px;
+       /*margin-bottom: 200px;*/
+       padding-bottom: 100px;
+       width: 60%;
+       background: #f1f1f1;
+       border-radius: 10px;
+   }
+   div.content>div.input>p {
+    padding-top: 4vh;
+    margin-bottom: 4vh;
+       width: 100%;
+       text-align: center;
+   }
+   div.content>div.input>.input_inner {
+       padding: 3vw;
+       width: 60%;
+       margin: 0 auto;
+       border: 3px solid #007bc1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   div.content>div.input>.input_inner>label {
+    font-size: 1.1vw;
+    margin-right: 1vw;
+       vertical-align: middle;
+   }
+   div.content>div.input>.input_inner>input {
+    height: 4vh;
+    width: 20vw;
+       border: 1px solid #007bc1;
+       vertical-align: middle;
+       font-size: 0.8vw;
+       text-align: center;
+      
+   }
+   div.content>div.input>.input_inner>p {
+    font-size: 0.8vw;
+    margin-top: 5vh;
+    font-weight: 500;
+    line-height: 1.1vw;
+   }
+   div.content>div.input>.input_inner>input[type="submit"] {
+    width: 67%;
+    background: #007bc1;
+    color: #fff;
+    height: 5vh;
+    margin-top: 8vh;
+    font-size: 1.1vw;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   
+   div.content>p.button_join {
+  	position: relative;
+  	margin-top: 5vw;
+  	text-align: center;
+  	margin-bottom: 100px;
+  }
+  div.content>p.button_join>span {
+  	position: absolute;
+    left: 36vw;
+    top: 5.3vw;
+    font-size: 1.6vw;
+    display: block;
+    width: 65%;
+    letter-spacing: -2px;
+    text-align: left;
+    line-height: 2.2vw;
+  }
+  div.content>p.button_join>span>a {
+  	text-decoration: none;
+  	color: #007bc1;
+  }
+  div.content>p.button_join>img {
+  	width: 60%;
+  }
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    #main {
+       
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+
+   #main>div.content {
+       width: 100%;
+   }
+   /* content */
+   #main>div.content>div.inner>ul {    
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* align-items: center; */
+    flex-direction: column;
+   
+    
+    
+   }
+   #main>div.content>div.inner>ul>li {
+    flex: 1;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 3vh;
+   }
+   #main>div.content>div.inner>ul>li>h3 {
+       font-size: 2.1vw;
+       font-weight: bold;
+       color: #007bc1;
+   }
+   #main>div.content>div.inner>ul>li>p {
+    color: #9c9c9c;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 2.2vh;
+   }
+
+   /* input */
+   div.content>div.input {
+       margin: 0 auto;
+       margin-top: 90px;
+       margin-bottom: 200px;
+       padding-bottom: 100px;
+       width: 60%;
+       background: #f1f1f1;
+       border-radius: 10px;
+   }
+   div.content>div.input>p {
+    padding-top: 4vh;
+    margin-bottom: 4vh;
+       width: 100%;
+       text-align: center;
+   }
+   div.content>div.input>.input_inner {
+       padding: 3vw;
+       width: 60%;
+       margin: 0 auto;
+       border: 3px solid #007bc1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   div.content>div.input>.input_inner>label {
+    font-size: 1.1vw;
+    margin-right: 1vw;
+       vertical-align: middle;
+   }
+   div.content>div.input>.input_inner>input {
+    height: 4vh;
+    width: 20vw;
+       border: 1px solid #007bc1;
+       vertical-align: middle;
+       font-size: 0.8vw;
+       text-align: center;
+      
+   }
+   div.content>div.input>.input_inner>p {
+    font-size: 0.9vw;
+    margin-top: 5vh;
+    font-weight: 500;
+    line-height: 1.6vw;
+   }
+   div.content>div.input>.input_inner>input[type="submit"] {
+    width: 67%;
+    background: #007bc1;
+    color: #fff;
+    height: 5vh;
+    margin-top: 8vh;
+    font-size: 1.1vw;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   
+   
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) {
+    #main {
+       
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+   #main>div.center {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+   }
+
+   #main>div.content {
+       width: 100%;
+   }
+   /* content */
+   #main>div.content>div.inner>ul {    
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    /* align-items: center; */
+    flex-direction: column;  
+    height: 340px;
+    
+   }
+   #main>div.content>div.inner>ul>li {
+    flex: 1;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 5%;
+    margin-bottom: 3vh;
+    padding-top: 6%;
+   }
+   #main>div.content>div.inner>ul>li>h3 {
+       font-size: 14px;
+       font-weight: bold;
+       color: #007bc1;
+   }
+   #main>div.content>div.inner>ul>li>p {
+    color: #9c9c9c;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 2.2vh;
+   }
+
+   /* input */
+   div.content>div.input {
+    margin: 0 auto;
+    margin-top: 90px;
+    /*margin-bottom: 64px;*/
+    padding-bottom: 13px;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 10px;
+   }
+   div.content>div.input>p {
+    padding-top: 4vh;
+    margin-bottom: 4vh;
+       width: 100%;
+       text-align: center;
+   }
+
+   div.content>div.input>p>img {
+       width: 60%;
+   }
+   div.content>div.input>.input_inner {
+       padding: 3vw;
+       width: 80%;
+       margin: 0 auto;
+       border: 3px solid #007bc1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   div.content>div.input>.input_inner>label {
+    font-size: 1.1vw;
+    margin-right: 1vw;
+       vertical-align: middle;
+   }
+   div.content>div.input>.input_inner>input {
+    height: 4vh;
+    width: 225px;
+       border: 1px solid #007bc1;
+       vertical-align: middle;
+       font-size: 0.8vw;
+       text-align: center;
+      margin-top: 2vh;
+   }
+   div.content>div.input>.input_inner>p {
+    font-size: 11px;
+    margin-top: 5vh;
+    font-weight: 500;
+    line-height: 14px;
+    color: #777;
+    text-align: left;
+}
+
+   
+   div.content>div.input>.input_inner>input[type="submit"] {
+    width: 100%;
+    background: #007bc1;
+    color: #fff;
+    height: 5vh;
+    margin-top: 8vh;
+    font-size: 1.1vw;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   
+   div.content>p.button_join {
+  	position: relative;
+  	margin-top: 5vw;
+  	margin-bottom: 5vw;
+  	text-align: center;
+  }
+  div.content>p.button_join>span {
+  	position: absolute;
+    left: 16vw;
+    top: 3.3vw;
+    font-size: 10px;
+    display: block;
+    width: 60%;
+    letter-spacing: -2px;
+    text-align: left;
+    line-height: 13px;
+    margin-left: 56px;
+    margin-top: 12px;
+  }
+  div.content>p.button_join>span>a {
+  	text-decoration: none;
+  	color: #007bc1;
+  }
+  div.content>p.button_join>img {
+  	width: 73%;
+  	height: 78px;
+  }
+}

@@ -1,0 +1,522 @@
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1024px) {
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* form */
+   #main>div.form_center {
+       width: 80%;
+       margin: 0 auto;
+       background: #f1f1f1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   #main>div.form_center>form {
+       width: 70%;
+       margin: 0 auto;
+    
+       padding-left: 3%;
+   }
+   #main>div.form_center ul {
+       display: flex;
+       justify-content: center;
+       font-size: 18px;
+       flex-direction: row;
+       margin-top: 15px;
+   }
+   #main>div.form_center ul:last-of-type>li>input {
+    margin-left: 18px;
+   }
+   #main>div.form_center ul>li {
+       flex: 1;
+       text-align: left;
+   }
+   #main>div.form_center ul>li>input {
+    margin-left: 35px;
+    width: 70%;
+    height: 25px;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+ 
+   
+   #main>div.form_center>p {
+    padding-top: 55px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+   }
+ 
+
+   /* 문의내용 */
+   #main>div.form_center>form>p {
+       text-align: left;
+       margin-top: 16px;
+       font-size: 18px;
+       font-weight: bold;
+   }
+   #main>div.form_center>form>p>textarea {
+    display: block;   
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    display: block;
+    margin-top: 17px;
+    width: 92%;
+    /* width: 952px; */
+    height: 240px;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+   }
+
+   /* 상담신청 버튼 */ 
+   #main>div.form_center>form>input {
+    margin-top: 75px;
+    margin-bottom: 35px;
+    width: 50%;
+    height: 50px;
+    background: #007bc1;
+    box-shadow: 1px 1px 1px #9c9c9c;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   #main>div.form_center>form>div.input_arr {
+       position: relative;
+    margin-right: 73px;
+    text-align: right;
+    margin-top: 11px;
+   }
+   #main>div.form_center>form>div.input_arr>input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0;
+   }
+   #main>div.form_center>form>div.input_arr>label {
+    vertical-align: middle;
+    font-weight: bold;
+    color: #007bc1;
+   }
+
+   #main>div.form_center>form>div.input_arr>span {
+    
+    cursor: pointer;
+       color: #000;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold {
+     display: none;
+     position: absolute;
+       right: 0;
+       top: -380px;
+       padding: 20px;
+       width: 300px;
+       text-align: left;
+       font-weight: 300;
+       border: 3px solid #007bc1;
+       background: #fff;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>strong {
+       font-weight: bold;
+       font-size: 18px;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>p {
+    margin-top: 8px;
+    margin-bottom: 22px;
+    font-size: 16px;
+}
+   
+
+  
+}
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* form */
+   #main>div.form_center {
+       width: 80%;
+       margin: 0 auto;
+       background: #f1f1f1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   #main>div.form_center>form {
+       width: 70%;
+       margin: 0 auto;
+    
+       padding-left: 3%;
+   }
+   #main>div.form_center ul {
+       display: flex;
+       justify-content: center;
+       font-size: 16px;
+       flex-direction: row;
+       margin-top: 15px;
+   }
+   #main>div.form_center ul:last-of-type>li>input {
+    margin-left: 18px;
+   }
+   #main>div.form_center ul>li {
+       flex: 1;
+       text-align: left;
+   }
+   #main>div.form_center ul>li>input {
+    margin-left: 19px;
+    width: 70%;
+    height: 25px;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+ 
+   
+   #main>div.form_center>p {
+    padding-top: 55px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+   }
+ 
+
+   /* 문의내용 */
+   #main>div.form_center>form>p {
+       text-align: left;
+       margin-top: 16px;
+       font-size: 16px;
+       font-weight: bold;
+   }
+   #main>div.form_center>form>p>textarea {
+    display: block;   
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    display: block;
+    margin-top: 17px;
+    width: 92%;
+    /* width: 952px; */
+    height: 240px;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+   }
+
+   /* 상담신청 버튼 */ 
+   #main>div.form_center>form>input {
+    margin-top: 75px;
+    margin-bottom: 35px;
+    width: 50%;
+    height: 50px;
+    background: #007bc1;
+    box-shadow: 1px 1px 1px #9c9c9c;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   #main>div.form_center>form>div.input_arr {
+       position: relative;
+    margin-right: 40px;
+    text-align: right;
+    margin-top: 11px;
+   }
+   #main>div.form_center>form>div.input_arr>input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0;
+   }
+   #main>div.form_center>form>div.input_arr>label {
+    vertical-align: middle;
+    font-weight: bold;
+    color: #007bc1;
+   }
+
+   #main>div.form_center>form>div.input_arr>span {
+    
+    cursor: pointer;
+       color: #000;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold {
+     display: none;
+     position: absolute;
+       right: 0;
+       top: -370px;
+       padding: 20px;
+       width: 300px;
+       text-align: left;
+       font-weight: 300;
+       border: 3px solid #007bc1;
+       background: #fff;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>strong {
+       font-weight: bold;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>p {
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:767px) {
+    #main {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+    }
+
+    #main h2 {
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        text-align: center;
+        margin-top: 90px;
+   }
+   #main h2::before {
+    content: "";
+    position: absolute;
+    left: 21px;
+    top: -14px;
+    border-top: 5px solid #000;
+    width: 155px;
+   }
+
+   #main>div.center {
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+   #main>div.center>p {
+       margin-top: 8px;
+       color: #9c9c9c;
+       font-size: 23px;
+       margin-bottom: 100px;
+       
+   }
+
+   /* form */
+   #main>div.form_center {
+       width: 80%;
+       margin: 0 auto;
+       background: #f1f1f1;
+       border-radius: 5px;
+       text-align: center;
+   }
+   #main>div.form_center>form {
+       width: 85%;
+       margin: 0 auto;
+    
+       padding-left: 3%;
+   }
+   #main>div.form_center ul {
+       display: flex;
+       justify-content: center;
+      font-size: 12px;
+       flex-direction: column;
+      
+   }
+   #main>div.form_center ul:last-of-type>li>input {
+    margin-left: 18px;
+   }
+   #main>div.form_center ul>li {
+       margin-top: 10px;
+       flex: 1;
+       text-align: right;
+   }
+   #main>div.form_center ul>li>input {
+    margin-left: 18px;
+    width: 70%;
+    height: 25px;
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+ 
+   
+   #main>div.form_center>p {
+    padding-top: 55px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+   }
+   #main>div.form_center>p>img {
+       width: 85%;
+   }
+
+   /* 문의내용 */
+   #main>div.form_center>form>p {
+       text-align: center;
+       margin-top: 16px;
+       font-size: 15px;
+       font-weight: bold;
+   }
+   #main>div.form_center>form>p>textarea {
+    display: block;   
+    border: 1px solid #007bc1;
+    border-radius: 5px;
+    display: block;
+    margin-top: 17px;
+    width: 92%;
+    /* width: 952px; */
+    height: 240px;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+   }
+
+   /* 상담신청 버튼 */ 
+   #main>div.form_center>form>input {
+    margin-top: 75px;
+    margin-bottom: 35px;
+    width: 50%;
+    height: 40px;
+    background: #007bc1;
+    box-shadow: 1px 1px 1px #9c9c9c;
+    border: none;
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+   }
+   #main>div.form_center>form>div.input_arr {
+       position: relative;
+    margin-right: 34px;
+    text-align: right;
+    margin-top: 11px;
+    font-size: 11px;
+   }
+   #main>div.form_center>form>div.input_arr>input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin: 0;
+   }
+   #main>div.form_center>form>div.input_arr>label {
+    vertical-align: middle;
+    font-weight: bold;
+    color: #007bc1;
+   }
+
+   #main>div.form_center>form>div.input_arr>span {
+    vertical-align: middle;
+    cursor: pointer;
+       color: #000;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold {
+     display: none;
+     position: absolute;
+       right: 0;
+       top: -370px;
+       padding: 20px;
+       width: 300px;
+       text-align: left;
+       font-weight: 300;
+       border: 3px solid #007bc1;
+       background: #fff;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>strong {
+       font-weight: bold;
+   }
+   #main>div.form_center>form>div.input_arr>div.hold>p {
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+ }
+

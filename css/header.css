@@ -1,0 +1,399 @@
+
+/* PC (해상도 1024px)*/ 
+@media all and (min-width:1025px) {
+    header {
+   
+        width: 100%;
+        
+        height: 200px;
+        line-height: 200px;
+        overflow: hidden;
+    }
+    header>h1 {
+        margin: 0 auto;
+        width:397px;
+        height: 50px;
+       
+    }
+    header>h1>img {
+        width: 397px;
+    
+    }
+    
+    header>nav {
+        margin-top: 100px;
+       
+       background: #007bc1;
+    }
+    header>p {
+        display: none;
+    }
+    header>nav>ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 60%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        line-height: 50px;
+        text-align: center;
+    }
+    header>nav>ul>li {
+        width: 307px;
+        height: 50px;
+       flex: 1;
+       border-left: 1px solid #fff;
+    }
+    header>nav>ul>li:last-child {
+       
+       border-right: 1px solid #fff;
+    }
+    header>nav>ul>li>a {
+        color: #fff;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        /* font-weight: bold; */
+        font-size: 1vw;
+    
+    }
+    header>nav>ul>li>a>i {
+        margin-right:15px;
+    }
+    header>button {
+      
+   
+        position: fixed;
+    width: 38px;
+    height: 155px;
+    right: 5%;
+    bottom: 100px;
+    background: #ffc600;
+    border-radius: 5px;
+    border: 1px solid #007bc1;
+    /* box-shadow: 1px 1px 1px #9c9c9c; */
+    z-index: 1000;
+    }
+    header>button>a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bc1;
+    }
+    header>button>.fas {
+        color: #007bc1;
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1024px) {
+    header {
+   
+        width: 100%;        
+        height: 200px;
+        line-height: 200px;
+        overflow: hidden;
+    }
+    header>h1 {
+        margin: 0 auto;
+        width:397px;
+        height: 50px;
+       
+    }
+    header>h1>img {
+        width: 397px;
+    
+    }
+    header>p {
+        display: none;
+    }
+    header>nav {
+        margin-top: 100px;
+       
+       background: #007bc1;
+    }
+    header>nav>ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        line-height: 50px;
+        text-align: center;
+    }
+    header>nav>ul>li {
+        width: 307px;
+        height: 50px;
+       flex: 1;
+       border-left: 1px solid #fff;
+    }
+    header>nav>ul>li:last-child {
+       
+       border-right: 1px solid #fff;
+    }
+    header>nav>ul>li>a {
+        color: #fff;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+        font-size: 1.6vw;
+    
+    }
+    header>nav>ul>li>a>i {
+        margin-right:15px;
+    }
+    
+
+    header>button {
+      
+   
+        position: fixed;
+    width: 38px;
+    height: 155px;
+    right: 5%;
+    bottom: 100px;
+    background: #ffc600;
+    border-radius: 5px;
+    border: 1px solid #007bc1;
+    /* box-shadow: 1px 1px 1px #9c9c9c; */
+    z-index: 1000;
+    }
+    header>button>a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bc1;
+    }
+    header>button>.fas {
+        color: #007bc1;
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width: 478px) and (max-width:767px) { 
+    header {
+        position: relative;
+        width: 100%;
+        
+        height: 100px;
+        
+    }
+    header>h1 {
+        margin: 0 auto;
+        width:397px;
+        height: 44px;
+        text-align: center;
+       
+    }
+    header>h1>a {
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+       
+    }
+    header>h1 img {
+        width: 250px;
+        vertical-align: middle;
+    }
+    header>p.open {
+        margin-left:50px;
+    }
+    header>p.open>img {
+        width: 30px;
+    }
+    header>p.close {
+        display: none;
+        margin-left:50px;
+    }
+   
+    header>p.close>img {
+        width: 30px;
+    }
+    header>nav.button {
+        position: absolute;
+       left: -9999px;
+       top: 100px;
+       width: 100%;
+       flex-direction: column;
+       background: #007bc1;
+       z-index: 100;
+    }
+    header>nav>ul {
+        display: flex;
+        flex-direction:column;
+        margin: 0 auto;
+        width: 100%;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        text-align: center;
+    }
+    header>nav>ul>li {
+        width: 100%;
+    height: 70px;
+    flex: 1;
+    border-bottom: 1px solid #fff;
+    }
+    header>nav>ul>li:last-child {
+       
+       border: none;
+    }
+    header>nav>ul>li>a {
+        color: #fff;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 70px;
+    
+    }
+    header>nav>ul>li>a>i {
+        margin-right:15px;
+    }
+   
+
+    header>button {
+      
+   
+        position: fixed;
+    width: 38px;
+    height: 155px;
+    right: 5%;
+    bottom: 100px;
+    background: #ffc600;
+    border-radius: 5px;
+    border: 1px solid #007bc1;
+    /* box-shadow: 1px 1px 1px #9c9c9c; */
+    z-index: 1000;
+    }
+    header>button>a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bc1;
+    }
+    header>button>.fas {
+        color: #007bc1;
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 767px)*/ 
+@media all and (max-width:479px) { 
+    header {
+        /* position: relative; */
+        width: 100%;
+        overflow: hidden;
+        height: 100px;
+        
+    }
+    header>h1 {
+        margin: 0 auto;
+        width:397px;
+        height: 44px;
+        text-align: center;
+       
+    }
+    header>h1>a {
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      line-height: 100px;
+       
+    }
+    header>h1 img {
+        width: 250px;
+        vertical-align: middle;
+    }
+    header>p.open {
+        margin-left:20px;
+    }
+    header>p.open>img {
+        width: 30px;
+    }
+    header>p.close {
+        display: none;
+        margin-left:20px;
+    }
+   
+    header>p.close>img {
+        width: 30px;
+    }
+    header>nav.button {
+        position: absolute;
+       left: -9999px;
+       top: 100px;
+       width: 100%;
+       flex-direction: column;
+       background: #007bc1;
+       z-index: 100;
+    }
+    header>nav>ul {
+        display: flex;
+        flex-direction:column;
+        margin: 0 auto;
+        width: 100%;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px;
+        text-align: center;
+    }
+    header>nav>ul>li {
+        width: 100%;
+    height: 70px;
+    flex: 1;
+    border-bottom: 1px solid #fff;
+    }
+    header>nav>ul>li:last-child {
+       
+       border: none;
+    }
+    header>nav>ul>li>a {
+        color: #fff;
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 70px;
+    
+    }
+    header>nav>ul>li>a>i {
+        margin-right:15px;
+    }
+    header>button {
+      
+   
+        position: fixed;
+    width: 38px;
+    height: 155px;
+    right: 5%;
+    bottom: 100px;
+    background: #ffc600;
+    border-radius: 5px;
+    border: 1px solid #007bc1;
+    /* box-shadow: 1px 1px 1px #9c9c9c; */
+    z-index: 1000;
+    }
+    header>button>a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #007bc1;
+    }
+    header>button>.fas {
+        color: #007bc1;
+        font-size: 18px;
+        margin-right: 5px;
+    }
+}
+
+
