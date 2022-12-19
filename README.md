@@ -15,3 +15,9 @@
   * 반응형 웹
   * PHP는 간단한 폼 양식으로 기존 코드로 작성
   * 고객이 문의사항 작성 시 데이터는 회사 메일로 전송되도록 구현
+  * 메인페이지
+  ![image](https://user-images.githubusercontent.com/89292360/208441127-9caf7aa5-8e5e-49f0-93aa-e45619c10442.png)
+  * 교육지원
+  ![image](https://user-images.githubusercontent.com/89292360/208441232-3778f4c0-6d3d-4b6d-a7d5-4bc9fa8af677.png)
+  * 회사소개
+![image](https://user-images.githubusercontent.com/89292360/208441290-e3be0139-a116-4cc5-86a6-a74ed4072f70.png)
